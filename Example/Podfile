@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'JWDatePicker_Example' do
+  pod 'JWDatePicker', :path => '../'
+
+  target 'JWDatePicker_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
