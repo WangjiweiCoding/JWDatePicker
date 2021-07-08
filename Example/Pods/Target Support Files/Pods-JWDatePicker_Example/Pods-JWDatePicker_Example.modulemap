@@ -1,0 +1,6 @@
+framework module Pods_JWDatePicker_Example {
+  umbrella header "Pods-JWDatePicker_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

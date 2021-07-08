@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
+时间选择器
                        DESC
 
   s.homepage         = 'https://github.com/wangjiwei/JWDatePicker'

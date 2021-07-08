@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - JWDatePicker (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - JWDatePicker (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  JWDatePicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  JWDatePicker: 9a4dfdecc9443782c3c471b962f66aafcaf43c8a
+
+PODFILE CHECKSUM: 739454bc6f4245a0c332b5af9f4b23a6a0c2588c
+
+COCOAPODS: 1.10.0
